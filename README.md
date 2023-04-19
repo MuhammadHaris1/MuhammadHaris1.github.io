@@ -17,15 +17,14 @@ Ensure that you have the following software installed on your machine:
 Follow these steps to set up and run the Node.js server on your local machine: 
 
 1. Clone the repository: <br />
-    `git clone --branch factory-0.5.0-backend https://github.com/netclixlabs/the-waffle-factory-app.git factory-backend`
+    **`git clone --branch factory-0.5.0-backend https://github.com/netclixlabs/the-waffle-factory-app.git factory-backend`**
 
 2. Install the dependencies: <br />
     `cd factory-backend`
     `yarn` or `npm install`
 
 3. Create a `.env` file in the root directory to configure environment variables:
-    SESSION_COOKIE_SECRET = "SESSION_SECRET"
-
+    
     ### This text is inserted by `prisma init`:
     ### Environment variables declared in this file are automatically made available to Prisma.
     ### See the documentation for more detail: https://pris.ly/d/prisma-schema#using-environment-variables
@@ -34,6 +33,7 @@ Follow these steps to set up and run the Node.js server on your local machine:
     ### See the documentation for all the connection string options: https://pris.ly/d/connection-strings
 
     DATABASE_URL="YOUR_DB_URL_HERE"
+    SESSION_COOKIE_SECRET = "SESSION_SECRET"
 
 4. Start the local development server: <br />
     `yarn dev` or `npm run dev`
