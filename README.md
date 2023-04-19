@@ -32,8 +32,8 @@ Follow these steps to set up and run the Node.js server on your local machine:
     ### Prisma supports the native connection string format for PostgreSQL, MySQL and SQLite.
     ### See the documentation for all the connection string options: https://pris.ly/d/connection-strings
 
-    DATABASE_URL="YOUR_DB_URL_HERE "<br />
-    SESSION_COOKIE_SECRET = "SESSION_SECRET"
+    `DATABASE_URL="YOUR_DB_URL_HERE"`<br />
+    `SESSION_COOKIE_SECRET = "SESSION_SECRET"`
 
 4. Start the local development server: <br />
     `yarn dev` or `npm run dev`
