@@ -16,7 +16,7 @@ Ensure that you have the following software installed on your machine:
 ## Setup
 Follow these steps to set up and run the Node.js server on your local machine: 
 
-1. Clone the repository: 
+1. Clone the repository: <br />
     `git clone --branch factory-0.5.0-backend https://github.com/netclixlabs/the-waffle-factory-app.git factory-backend`
 
 2. Install the dependencies: 
