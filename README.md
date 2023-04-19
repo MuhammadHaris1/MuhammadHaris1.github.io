@@ -17,10 +17,10 @@ Ensure that you have the following software installed on your machine:
 Follow these steps to set up and run the Node.js server on your local machine: 
 
 1. Clone the repository: <br />
-    **`git clone --branch factory-0.5.0-backend https://github.com/netclixlabs/the-waffle-factory-app.git factory-backend`**
+    `git clone --branch factory-0.5.0-backend https://github.com/netclixlabs/the-waffle-factory-app.git factory-backend`
 
 2. Install the dependencies: <br />
-    `cd factory-backend`
+    `cd factory-backend` <br />
     `yarn` or `npm install`
 
 3. Create a `.env` file in the root directory to configure environment variables:
@@ -32,7 +32,7 @@ Follow these steps to set up and run the Node.js server on your local machine:
     ### Prisma supports the native connection string format for PostgreSQL, MySQL and SQLite.
     ### See the documentation for all the connection string options: https://pris.ly/d/connection-strings
 
-    DATABASE_URL="YOUR_DB_URL_HERE"
+    DATABASE_URL="YOUR_DB_URL_HERE "<br />
     SESSION_COOKIE_SECRET = "SESSION_SECRET"
 
 4. Start the local development server: <br />
